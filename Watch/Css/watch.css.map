@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,KAAK;CAEpB;;AACD,AAAA,MAAM,CAAA;EACF,KAAK,EAAE,OAAO;EACd,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,GAAG;EACT,GAAG,EAAE,GAAG;EACR,SAAS,EAAE,gBAAgB,CAAC,gBAAgB;EAC5C,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,sBAAsB;CACtC",
+    "sources": [
+        "watch.scss"
+    ],
+    "names": [],
+    "file": "watch.css"
+}

@@ -1,0 +1,14 @@
+body{
+    background: black;
+    
+}
+.block{
+    color: #17D4FE;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 60px;
+    letter-spacing: 7px;
+    font-family: 'Orbitron', sans-serif;
+}

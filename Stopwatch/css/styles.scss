@@ -1,0 +1,56 @@
+/* Variabes */
+$orange: #ffa600;
+$grey: #f3f3f3;
+$white: #fff;
+$base-color: $orange;
+
+/* Mixin's */
+@mixin transition {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+@mixin coner($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  -khtml-border-radius: $radius;
+}
+
+body {
+  background: $base-color;
+  height: 100%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.wrapper{
+   width: 80%;
+   margin: 100px auto;
+   text-align: center;
+   color: $white;
+   h1, h2  {
+     font-family: 'Roboto',sans-serif;
+     font-size: 2.6em;
+     font-weight: 100;
+     text-transform: uppercase;
+    }
+    #seconds , #tens{
+      font-size: 2em;
+    }
+    button{
+      @include coner(5px);
+      margin: 10px;
+      padding: 20px 40px;
+      background-color: $base-color;
+      color: $white;
+      border: solid 1px $white;
+      width: 150px;
+      outline: 10px;
+      &:hover{
+        @include transition;
+        background: $white;
+        border: solid 1px $grey;
+        color: $base-color;
+      }
+    }
+} 
